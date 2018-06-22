@@ -69,7 +69,7 @@ This can be done directly from Zabbix (using its standard functionality) either 
 
 ## Installation
 
-### Install pip and python modules (OS independed)
+### Install pip and python modules (Only on zabbix-server host. OS independed)
 
     curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
     python get-pip.py
