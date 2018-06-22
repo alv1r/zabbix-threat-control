@@ -1,3 +1,4 @@
+
 # Zabbix Threat Control
 
 Оur plugin transforms your Zabbix monitoring system into vulnerability, risk and security managment system for your infrastructure.
@@ -67,6 +68,12 @@ This can be done directly from Zabbix (using its standard functionality) either 
 - zabbix-agent for collect data and run scripts.
 
 ## Installation
+
+### Install pip and python modules (OS independed)
+
+    curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+    python get-pip.py
+    pip install pyzabbix jpath requests
 
 ### RHEL, CentOS and other RPM-based
 
